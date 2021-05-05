@@ -1,8 +1,11 @@
+// variables
+@use 'app/Variables';
+
 .result-item {
   cursor: pointer;
 
   :hover {
-    background-color: #dadada;
+    background-color: Variables.$hover-color;
   }
 
   .content {

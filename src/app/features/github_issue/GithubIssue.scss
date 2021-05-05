@@ -1,7 +1,10 @@
+// variables
+@use 'app/Variables';
+
 .github-issue {
   .subtitle {
     font-style: italic;
-    color: grey;
+    color: Variables.$subtitle-color;
     font-size: 0.8rem;
     text-align: right;
     margin: 5px 30px 0 0;
