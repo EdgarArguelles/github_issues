@@ -12,6 +12,5 @@ exports[`Components -> Autocomplete -> ResultItem snapshot should render ResultI
   >
     display
   </div>
-  <hr />
 </div>
 `;

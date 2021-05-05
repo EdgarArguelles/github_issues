@@ -5,10 +5,8 @@ exports[`Features -> GithubIssue snapshot should render GithubIssue with props 1
   className="github-issue"
 >
   <div>
-    <b>
-      ❗
-      title test
-    </b>
+    ❗
+    title test
     <span
       className="issue-label"
       style={
