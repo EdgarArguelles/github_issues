@@ -1,0 +1,11 @@
+.result-item {
+  cursor: pointer;
+
+  :hover {
+    background-color: #dadada;
+  }
+
+  .content {
+    padding: 15px;
+  }
+}

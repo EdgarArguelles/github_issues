@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Features -> GithubIssue -> IssueLabel snapshot should render IssueLabel with props 1`] = `
+<span
+  className="issue-label"
+  style={
+    Object {
+      "backgroundColor": "#red26",
+      "borderColor": "#red",
+    }
+  }
+>
+  test
+</span>
+`;

@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Features -> GithubIssue snapshot should render GithubIssue with props 1`] = `
+<div
+  className="github-issue"
+>
+  <div>
+    <b>
+      ❗
+      title test
+    </b>
+    <span
+      className="issue-label"
+      style={
+        Object {
+          "backgroundColor": "#red26",
+          "borderColor": "#red",
+        }
+      }
+    >
+      A
+    </span>
+    <span
+      className="issue-label"
+      style={
+        Object {
+          "backgroundColor": "#blue26",
+          "borderColor": "#blue",
+        }
+      }
+    >
+      B
+    </span>
+  </div>
+  <div
+    className="subtitle"
+  >
+    #
+    5
+     opened by 
+    login test
+    <img
+      alt="login test"
+      className="user-avatar"
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,14 @@
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .autocomplete {
+    margin-top: 20px;
+    width: 60%;
+
+    @media (max-width: 1200px) {
+      width: 80%;
+    }
+  }
+}

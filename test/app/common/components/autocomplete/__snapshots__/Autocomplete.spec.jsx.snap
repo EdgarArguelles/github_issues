@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components -> Autocomplete snapshot should render Autocomplete with props 1`] = `
+<div
+  className="autocomplete"
+>
+  <input
+    className="search"
+    onChange={[Function]}
+    onKeyDown={[Function]}
+    placeholder="placeholder test"
+    type="text"
+    value=""
+  />
+</div>
+`;
+
+exports[`Components -> Autocomplete snapshot should render Autocomplete without props 1`] = `
+<div
+  className="autocomplete"
+>
+  <input
+    className="search"
+    onChange={[Function]}
+    onKeyDown={[Function]}
+    type="text"
+    value=""
+  />
+</div>
+`;
