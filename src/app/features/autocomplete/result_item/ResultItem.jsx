@@ -19,7 +19,6 @@ const ResultItem = ({data, focus, onSelect}) => {
     return (
         <div className="result-item" ref={ref} tabIndex={0} onClick={handleSelect} onKeyDown={handleKeyDown}>
             <div className="content">{data.display}</div>
-            <hr/>
         </div>
     );
 };

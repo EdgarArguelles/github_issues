@@ -7,7 +7,7 @@ const GithubIssue = ({issue}) => {
     return (
         <div className="github-issue">
             <div>
-                <b>❗{issue.title}</b>
+                ❗{issue.title}
                 {issue.labels.map(label => <IssueLabel key={`label-${label.id}`} label={label}/>)}
             </div>
             <div className="subtitle">
