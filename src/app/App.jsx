@@ -3,7 +3,7 @@ import './App.scss';
 import React, {useState} from 'react';
 import ReactDOM from 'react-dom';
 import {useGitHubIssues} from 'app/hooks/GitHubAPI';
-import Autocomplete from 'app/common/components/autocomplete/Autocomplete';
+import Autocomplete from 'app/features/autocomplete/Autocomplete';
 import GithubIssue from 'app/features/github_issue/GithubIssue';
 
 const App = () => {

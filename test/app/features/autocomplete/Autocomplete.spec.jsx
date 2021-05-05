@@ -1,7 +1,7 @@
 import sinon from 'sinon';
 import renderer, {act} from 'react-test-renderer';
 import React from 'react';
-import Autocomplete from 'app/common/components/autocomplete/Autocomplete';
+import Autocomplete from 'app/features/autocomplete/Autocomplete';
 
 describe('Components -> Autocomplete', () => {
     const onSelectStub = sinon.stub();
