@@ -3,6 +3,9 @@ Github's issues
 
 Demo page that lists and filters Github's issues.
 
+# Live Demo:
+[Demo page](https://edgararguelles.github.io/github_issues)
+
 # Stack:
 - React
 - Webpack
